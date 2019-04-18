@@ -4,9 +4,8 @@
 # Datatime: 2019.4.15
 
 
-# 提示用户输入文件名，打开文件夹，将内容显示到屏幕上
-
 def open_File():
+    # 提示用户输入文件名，打开文件夹，将内容显示到屏幕上
     fileName = input("Enter file name :")
     fobj = open(fileName,'r')
     for eachLine in fobj:
