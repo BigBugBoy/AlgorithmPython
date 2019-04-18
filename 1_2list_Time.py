@@ -56,6 +56,7 @@ print("尾部添加列表test5: ", timer5.timeit(1000))
 timer6 = timeit.Timer("test6()","from __main__ import test6")
 print("头部添加列表test6: ", timer6.timeit(1000))
 
+
 # 加法构造列表test1:  129.970685468
 # 列表生成器test2:  0.5241707810000094
 # 利用list转换test3:  0.16222657100001925
